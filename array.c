@@ -10,6 +10,7 @@ struct node
 struct node * insert(struct node *head, float co, int ex){
     struct node * temp;
     struct node * newP = malloc(sizeof(struct node));
+    
     newP->coefficient  =  co ;
     newP->exponent = ex;
     newP->link = NULL;
